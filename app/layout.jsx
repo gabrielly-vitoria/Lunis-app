@@ -1,7 +1,17 @@
+import '../src/styles/globals.scss';
 
-export default function RootLayout() {
+export const metadata = {
+  title: 'Lunis ☀️🌙',
+  description: 'Pastel to-do list with Sun and Moon theme',
+  icons: {
+    icon: '/favicon.png',
+  },
+};
+
+export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
+      <body>{children}</body>
     </html>
   );
-};
+}
