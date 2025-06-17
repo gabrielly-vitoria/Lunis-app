@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react';
-import styles from './AddTaskModal.module.scss';
+import styles from './addTaskModal.module.scss';
 
 export default function AddTaskModal({ onClose, onAddTask }) {
   const [title, setTitle] = useState('');
