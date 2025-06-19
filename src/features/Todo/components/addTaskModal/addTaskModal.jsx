@@ -95,3 +95,5 @@ export default function AddTaskModal({ onClose, onAddTask }) {
     </div>
   );
 }
+
+//escrevendo coisas que vou apagar amanhã, pq n quero perder streak e to sem tempo para algo mais elaborado 
